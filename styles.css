@@ -1,0 +1,25 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content:space-between;
+    padding-left: 48px;
+    padding-right: 48px;   
+}
+
+.link {
+    display: flex;
+    gap: 24px;
+}
+
+.link button {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 18px;
+    padding: 0;
+    border: 0;
+}
