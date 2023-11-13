@@ -70,6 +70,12 @@ img {
     font-size: 16px;
 }
 
+.secondary{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .secondary .title{
     font-size: 36px;
     font-weight: bold;
@@ -86,13 +92,77 @@ img {
 
 .secondary .boxes .box {
     display: flex;
-    width: 200px;
-    height: 200px;
-    border: 5px solid #3882f6;
     justify-content: center;
-    border-radius: 20px;
+    flex-direction: column;
+    align-items: center;
+    font-size: 8px;
 }
 
-.icon {
+.secondary .boxes .box h1 {
+    font-weight: 100;
+}
+
+.secondary .boxes .box img {
+    width: 200px;
+    height: 200px;
     border-radius: 20px;
+    border: 5px solid #3882f6;
+}
+
+.citation {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding: 100px 250px;
+}
+
+#thor {
+    font-size: 24px;
+    color: #1f2937;
+    font-weight: bold;
+}
+
+cite {
+    font-size: 36px;
+    color: #1f2937;
+    font: lighter;
+}
+
+.action {
+    color: #f9faf8;
+    background-color: #3882f6;
+    height: 150px;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+    border-radius: 10px;
+}
+
+.action div * {
+    margin: 0px 0px 0px 0px;
+}
+
+.action .button * {
+    background-color: #3882f6;
+    border-radius: 12px;
+    border: solid 2px;
+    font-weight: 700;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.footer *{
+    color: #f9faf8;
+    font-size: 18px;
+    background-color: #1f2937;
+    margin: 100px 0 0 0;
+    padding: 50px 0px;
+    text-align: center;
 }
